@@ -26,6 +26,8 @@ jobs:
 
       - name: Configurar o Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Enviar o cardápio
         uses: actions/upload-pages-artifact@v3
